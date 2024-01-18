@@ -1,24 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.debug{
+.debug {}
 
-}
-
-body{
+body {
     margin: 0;
 }
- /* #region header */
-#site_header{
+
+/* #region header */
+#site_header {
     height: 50px;
     background-color: aquamarine;
     padding: 1rem;
 }
 
-.container_h{
+.container_h {
     background-color: orange;
     width: 60%;
     margin: auto;
@@ -26,16 +25,29 @@ body{
     justify-content: space-between;
     border: 2px dashed black;
 }
- /* #endregion header */
+
+/* #endregion header */
 
 
-#site_main{
-    height: 500px;
+#site_main {
+    /* height: 500px; */
     background-color: blue;
+    display: flex;
+    height: 400px;
+
 }
 
-#site_footer{
+.block {
+    height: 300px;
+    width: 50%;
+    background-color: blueviolet;
+    padding: 2rem;
+    margin: auto;
+    border: 2px dashed black;
+
+}
+
+#site_footer {
     height: 50px;
     background-color: yellowgreen;
 }
-
