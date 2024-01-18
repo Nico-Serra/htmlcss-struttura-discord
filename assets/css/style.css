@@ -33,7 +33,7 @@ body {
 
 .first {
     display: flex;
-    height: 500px;
+    padding: 2rem 0;
     background-color: blue;
 }
 
@@ -41,7 +41,6 @@ body {
     height: 300px;
     width: 50%;
     background-color: blueviolet;
-    padding: 2rem;
     margin: auto;
     border: 2px dashed black;
 
@@ -51,7 +50,7 @@ body {
     display: flex;
     background-color: white;
     justify-content: center;
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 .block_1 {
@@ -74,14 +73,14 @@ body {
     flex-direction: row-reverse;
     background-color: lightgray;
     justify-content: center;
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 .third{
     display: flex;
     background-color: lightgray;
     justify-content: center;
-    padding: 2rem
+    padding: 2rem 0;
 
 }
 
@@ -98,9 +97,49 @@ body {
 
 /* #region footer */
 #site_footer {
-    height: 50px;
-    background-color: yellowgreen;
+    padding-top: 0.5rem;
+    background-color: darkslategrey;
 }
 
+.container_f{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem ;
+}
+
+.social{
+    background-color: mediumorchid;
+    width: 20%;
+    height: 250px;
+    border: 1px dashed white;
+}
+
+.info{
+    background-color: mediumaquamarine;
+    width: 10%;
+    height: 250px;
+    border: 1px dashed white;
+}
+
+.end{
+    padding: 1rem 0;
+}
+.line {
+    background-color: mediumaquamarine;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.button{
+    border: 1px dashed black;
+}
+
+hr{
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
 /* #endregion footer */
