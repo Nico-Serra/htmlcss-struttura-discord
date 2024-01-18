@@ -1,3 +1,41 @@
-body{
-    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+.debug{
+
+}
+
+body{
+    margin: 0;
+}
+ /* #region header */
+#site_header{
+    height: 50px;
+    background-color: aquamarine;
+    padding: 1rem;
+}
+
+.container_h{
+    background-color: orange;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 2px dashed black;
+}
+ /* #endregion header */
+
+
+#site_main{
+    height: 500px;
+    background-color: blue;
+}
+
+#site_footer{
+    height: 50px;
+    background-color: yellowgreen;
+}
+
