@@ -60,14 +60,14 @@ body {
     padding: 2rem 0;
 }
 
-.block_1 {
+.block_big {
     width: 40%;
     background-color: cadetblue;
     height: 400px;
     border: 1px dashed black;
 }
 
-.block_2 {
+.block_small {
     width: 20%;
     background-color: pink;
     height: 400px;
@@ -91,7 +91,7 @@ body {
 
 }
 
-.block_3{
+.block_square{
     height: 500px;
     width: 60%;
     background-color: green;
